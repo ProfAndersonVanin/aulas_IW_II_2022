@@ -1,0 +1,10 @@
+//recuperando hora e data atual do sistema
+var agora = new Date()
+var hora = agora.getHours()
+var minutos = agora.getMinutes()
+var mes = agora.getMonth()
+var ano = agora.getFullYear()
+console.log(`Estamos em ${ano}`)
+console.log(`Estamos no mês ${mes}`)
+console.log(`Horas ${hora}`)
+console.log(`Minutos ${minutos}`)
